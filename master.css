@@ -1,0 +1,53 @@
+img {
+  border-radius: 50%;
+  height: 15rem;
+  margin: 1rem;
+}
+
+hr {
+  border: 3px solid black;
+  margin: auto 5%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  display: flex;
+  font-family: Bebas;
+  justify-content: space-between;
+}
+
+ul {
+  margin-bottom: 5em;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 1rem 2rem;
+}
+
+thead {
+  background-color: black;
+  color: #fff
+}
+
+tbody {
+  background-color: white;
+  color: black;
+}
+
+.paragraphLine {
+  border: 2px solid black;
+  margin: 1rem;
+  width: 90%;
+}
+
+.profile {
+  text-align: center;
+  background-color: #BDE0FE;
+  padding-bottom: 1rem;
+  border-radius: 2rem;
+}
