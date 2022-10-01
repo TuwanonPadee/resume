@@ -40,6 +40,11 @@ tbody {
   color: black;
 }
 
+form {
+  font-family: sans-serif;
+  font-style: normal;
+}
+
 .paragraphLine {
   border: 2px solid black;
   margin: 1rem;
