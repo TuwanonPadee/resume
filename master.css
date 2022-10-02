@@ -57,7 +57,7 @@ form {
   border-radius: 2rem;
 }
 
-div, .crossDiv, #spaceDisplay, #centerDisplay {
+.crossDiv, #spaceDisplay, #centerDisplay {
   display: flex;
 }
 
