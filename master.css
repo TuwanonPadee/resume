@@ -6,7 +6,7 @@ img {
 }
 
 hr {
-  border: 3px dotted black;
+  border: 3px solid black;
   margin: auto 5%;
 }
 
@@ -26,8 +26,8 @@ ul {
   font-family: sans-serif;
 }
 
-body {
-  margin: 1rem 2rem;
+table {
+  border: 1px solid black;
 }
 
 thead {
@@ -35,14 +35,13 @@ thead {
   color: #fff
 }
 
-tbody {
-  background-color: white;
-  color: black;
-}
-
 form {
   font-family: sans-serif;
   font-style: normal;
+}
+
+.container {
+  margin: 3% 5%;
 }
 
 .paragraphLine {
@@ -56,4 +55,40 @@ form {
   background-color: #BDE0FE;
   padding-bottom: 1rem;
   border-radius: 2rem;
+}
+
+div, .crossDiv, #spaceDisplay, #centerDisplay {
+  display: flex;
+}
+
+.middle-container {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+
+.bottom-container {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.crossDiv {
+  height: 600px;
+  width: 600px;
+  flex-direction: column;
+}
+
+#spaceDisplay {
+  justify-content: space-between;
+}
+
+#centerDisplay {
+  justify-content: center;
+}
+
+#noneborder {
+  border: 1px solid white;
 }
