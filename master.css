@@ -5,18 +5,12 @@
 
 hr {
   border: 3px solid black;
-  margin: auto 5%;
+  margin: 1em 5em;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-h2 {
-  display: flex;
-  font-family: Bebas;
-  justify-content: space-between;
 }
 
 ul {
@@ -26,7 +20,7 @@ ul {
 
 table {
   border-collapse: collapse;
-  width: 60%;
+  width: 50%;
   overflow: hidden;
   border-radius: 5px;
 }
@@ -43,23 +37,25 @@ form {
 
 .container {
   margin: auto 50px;
-  font-family: sans-serif;
+  font-family: 'Bebas', sans-serif;
   background-color: #0081a7;
+  color: #FED9B7;
 }
 
 .paragraphLine {
   border: 3px solid #f07167;
-  margin: 15px;
+  margin: 20px;
   width: 80%;
 }
 
 .profile {
   text-align: center;
-  background-color: #bde0ff;
+  background-color: #F07167;
   padding: 1em;
   margin: 5em;
   border-radius: 3vmax;
-  font-family: 'Bebas', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  color: black;
 }
 
 .crossDiv,
@@ -94,10 +90,6 @@ form {
   justify-content: center;
 }
 
-#noneborder {
-  border: 1px solid white;
-}
-
 .info {
   margin: 5px auto;
 }
@@ -105,6 +97,11 @@ form {
 .circlePicture {
   border-radius: 100vmax;
   height: 15vmax;
-  border: 1em solid white;
+  border: 1em solid #FDFCDC;
   margin: 2em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
 }
