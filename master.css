@@ -1,8 +1,6 @@
-img {
-  border-radius: 50%;
-  height: 15rem;
-  margin: 1rem;
-  border: 10px solid white;
+@font-face {
+  font-family: 'Bebas';
+  src: url(Fonts/BebasNeue-Regular.ttf);
 }
 
 hr {
@@ -22,17 +20,20 @@ h2 {
 }
 
 ul {
-  margin-bottom: 5em;
+  margin-bottom: 5rem;
   font-family: sans-serif;
 }
 
 table {
-  border: 1px solid black;
+  border-collapse: collapse;
+  width: 60%;
+  overflow: hidden;
+  border-radius: 5px;
 }
 
 thead {
-  background-color: black;
-  color: #fff
+  background-color: #fdfcdc;
+  color: #00afb9;
 }
 
 form {
@@ -41,23 +42,29 @@ form {
 }
 
 .container {
-  margin: 3% 5%;
+  margin: auto 50px;
+  font-family: sans-serif;
+  background-color: #0081a7;
 }
 
 .paragraphLine {
-  border: 2px solid black;
-  margin: 1rem;
-  width: 90%;
+  border: 3px solid #f07167;
+  margin: 15px;
+  width: 80%;
 }
 
 .profile {
   text-align: center;
-  background-color: #BDE0FE;
-  padding-bottom: 1rem;
-  border-radius: 2rem;
+  background-color: #bde0ff;
+  padding: 1em;
+  margin: 5em;
+  border-radius: 3vmax;
+  font-family: 'Bebas', sans-serif;
 }
 
-.crossDiv, #spaceDisplay, #centerDisplay {
+.crossDiv,
+#spaceDisplay,
+#centerDisplay {
   display: flex;
 }
 
@@ -71,8 +78,6 @@ form {
   height: 200px;
   width: 200px;
   background-color: red;
-  display: inline-flex;
-  justify-content: center;
 }
 
 .crossDiv {
@@ -91,4 +96,15 @@ form {
 
 #noneborder {
   border: 1px solid white;
+}
+
+.info {
+  margin: 5px auto;
+}
+
+.circlePicture {
+  border-radius: 100vmax;
+  height: 15vmax;
+  border: 1em solid white;
+  margin: 2em;
 }
