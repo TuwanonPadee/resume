@@ -1,33 +1,18 @@
 @font-face {
-  font-family: 'Bebas';
+  font-family: "Bebas";
   src: url(Fonts/BebasNeue-Regular.ttf);
-}
-
-hr {
-  border: 3px solid black;
-  margin: 1em 5em;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-ul {
-  margin-bottom: 5rem;
-  font-family: sans-serif;
 }
 
 table {
   border-collapse: collapse;
-  width: 50%;
+  min-width: 40%;
   overflow: hidden;
   border-radius: 5px;
 }
 
 thead {
-  background-color: #fdfcdc;
-  color: #00afb9;
+  background-color: #EBF2FA;
+  color: #679436;
 }
 
 form {
@@ -35,27 +20,80 @@ form {
   font-style: normal;
 }
 
-.container {
-  margin: auto 50px;
-  font-family: 'Bebas', sans-serif;
-  background-color: #0081a7;
-  color: #FED9B7;
+.noneHyperText {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contentPage {
+  font-family: "Bebas", sans-serif;
+  background-color: #427aa1;
+  color: #ebf2fa;
 }
 
 .paragraphLine {
-  border: 3px solid #f07167;
-  margin: 20px;
+  border: 3px solid #ebf2fa;
+  margin: 30px;
   width: 80%;
 }
 
 .profile {
   text-align: center;
-  background-color: #F07167;
+  background-color: #ebf2fa;
   padding: 1em;
-  margin: 5em;
   border-radius: 3vmax;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   color: black;
+  margin: 5em auto;
+}
+
+.info {
+  margin: 5px auto;
+}
+
+.circlePicture {
+  border-radius: 100vmax;
+  height: 15vmax;
+  border: 0.75em solid #a5be00;
+  margin: 1em;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header:hover {
+  color: #ebf2fa;
+  text-shadow: rgba(165, 190, 0, 0.25) 0px 54px 55px,
+    rgba(165, 190, 0, 0.12) 0px -12px 30px, rgba(165, 190, 0, 0.12) 0px 4px 6px,
+    rgba(165, 190, 0, 0.17) 0px 12px 13px, rgba(165, 190, 0, 0.09) 0px -3px 5px;
+}
+
+#icon-palmtree {
+  height: 2em;
+}
+
+.layoutContent {
+  margin: 5em;
+}
+
+#cloud-right {
+  right: 20em;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+#cloud-left {
+  left: 25em;
+  top: 10em;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+#moutain {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .crossDiv,
@@ -88,20 +126,4 @@ form {
 
 #centerDisplay {
   justify-content: center;
-}
-
-.info {
-  margin: 5px auto;
-}
-
-.circlePicture {
-  border-radius: 100vmax;
-  height: 15vmax;
-  border: 1em solid #FDFCDC;
-  margin: 2em;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
 }
