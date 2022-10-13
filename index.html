@@ -14,14 +14,18 @@
     />
   </head>
 
-  <body class="contentPage">
-    <nav class="navbar navbar-expand-lg bg-light shadow-lg p-3 mb-5 bg-body">
+  <body class="content-body">
+    <nav
+      class="navbar navbar-expand-lg bg-light shadow-lg p-3 bg-body sticky-top"
+    >
       <div class="container-fluid">
         <img
           src="Image/palm tree.png"
           class="navbar-brand"
           id="icon-palmtree"
+          height="50"
         />
+        <span class="navbar-brand mb-0 h1">Tuwanon Padee</span>
         <button
           class="navbar-toggler"
           type="button"
@@ -35,13 +39,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <span class="navbar-brand">Tuwanon Padee</span>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="https://tuwanonpadee.github.io/resume/"
-                >Home</a
-              >
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <!-- <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link" href="#">Features</a>
             </li>
             <li class="nav-item">
@@ -49,43 +50,56 @@
             </li>
             <li class="nav-item">
               <a class="nav-link disabled">Disabled</a>
-            </li> -->
+            </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="layoutContent">
-      <div class="profile position-relative">
-        <h1>R e s u m e</h1>
-        <div class="border border-3 border-dark w-75 mx-auto mb-3"></div>
-        <div class="position-relative">
-          <h1>
-            <i> Mr. Tuwanon Padee </i>
-          </h1>
-          <img
-            src="Image/cloud.png"
-            class="position-absolute"
-            id="cloud-left"
-          />
-          <img
-            src="Image/cloud.png"
-            class="position-absolute"
-            id="cloud-right"
-          />
-        </div>
-        <img src="Image/mountain.png" class="m-3 h-50" id="moutain" />
+    <div
+      class="position-relative border bg-light text-black d-flex flex-column py-5"
+    >
+      <h1 class="d-flex justify-content-center">
+        <i> Mr. Tuwanon Padee </i>
+      </h1>
+      <div class="border border-3 border-dark w-75 mx-auto mb-3"></div>
+      <h2 class="d-block mx-auto" id="font-notosansTH">
+        <b><u>P</u>anyapiwat <u>I</u>nstitute of <u>M</u>anagement</b>
+      </h2>
+      <div class="position-relative">
+        <img src="Image/cloud.png" class="position-absolute" id="cloud-left" />
+        <img src="Image/cloud.png" class="position-absolute" id="cloud-right" />
         <img
-          class="circlePicture position-absolute top-50 start-50 translate-middle"
-          src="Image\pictureProfile.jpg"
+          src="Image/mountain.png"
+          class="mx-auto d-block"
+          id="shadow-moutain"
         />
       </div>
-      <h2 class="header">Education <span class="paragraphLine"></span></h2>
-      <ul>
-        <h3>
-          ⚙ Engineer, Computer and Artificial Intelligence | Panyapiwat
-          Institute of Management
-        </h3>
-      </ul>
+    </div>
+    <div class="container">
+      <article class="my-5 text-center">
+        <img
+          class="circlePicture d-block mx-auto my-5"
+          src="Image\pictureProfile.jpg"
+          alt="profile image"
+        />
+        <h2>Ha lo Ha lo</h2>
+        <p>I study at Panyapiwat Institute of Management.</p>
+        <hr class="border border-white opacity-100" />
+      </article>
+      <article class="my-5">
+        <h2 class="text-center">Skill</h2>
+        <div class="row row-cols-2 justify-content-sm-center w-25 mx-auto">
+          <p class="col">Java</p>
+          <span class="col">💪🏼💪🏼💪🏼💪🏼💪🏼</span>
+          <p class="col">Javascript</p>
+          <span class="col">💪🏼💪🏼💪🏼💪🏼</span>
+          <p class="col">English</p>
+          <span class="col">💪🏼💪🏼💪🏼</span>
+          <p class="col">English</p>
+          <span class="col">💪🏼💪🏼💪🏼💪🏼💪🏼</span>
+        </div>
+        <hr class="border border-white opacity-100" />
+      </article>
       <h2 class="header">Experience <span class="paragraphLine"></span></h2>
       <ul>
         <h2>
@@ -105,25 +119,7 @@
           </table>
         </h2>
       </ul>
-      <h2 class="header">Skill <span class="paragraphLine"></span></h2>
-      <ul>
-        <table>
-          <tr>
-            <td>Java&emsp;</td>
-            <td>💪🏼💪🏼💪🏼💪🏼💪🏼</td>
-            <td>&emsp;</td>
-            <td>Javascript&emsp;</td>
-            <td>💪🏼💪🏼💪🏼💪🏼</td>
-          </tr>
-          <tr>
-            <td>English&emsp;</td>
-            <td>💪🏼💪🏼💪🏼</td>
-            <td>&emsp;</td>
-            <td>Gaming&emsp;</td>
-            <td>💪🏼💪🏼💪🏼💪🏼💪🏼</td>
-          </tr>
-        </table>
-      </ul>
+
       <a href="contact.html" class="noneHyperText">
         <h2 class="header">Contdact 📎 <span class="paragraphLine"></span></h2>
       </a>
@@ -132,19 +128,11 @@
           >Weekly Reported 📎</a
         >
       </h2>
-      <div class="crossDiv">
-        <div id="spaceDisplay">
-          <div class="middle-container"></div>
-          <div class="middle-container"></div>
-        </div>
-        <div id="centerDisplay">
-          <div class="bottom-container"></div>
-        </div>
-        <div id="spaceDisplay">
-          <div class="middle-container"></div>
-          <div class="middle-container"></div>
-        </div>
-      </div>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

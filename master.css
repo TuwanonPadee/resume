@@ -11,7 +11,7 @@ table {
 }
 
 thead {
-  background-color: #EBF2FA;
+  background-color: #ebf2fa;
   color: #679436;
 }
 
@@ -25,26 +25,10 @@ form {
   text-decoration: none;
 }
 
-.contentPage {
+.content-body {
   font-family: "Bebas", sans-serif;
   background-color: #427aa1;
   color: #ebf2fa;
-}
-
-.paragraphLine {
-  border: 3px solid #ebf2fa;
-  margin: 30px;
-  width: 80%;
-}
-
-.profile {
-  text-align: center;
-  background-color: #ebf2fa;
-  padding: 1em;
-  border-radius: 3vmax;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  color: black;
-  margin: 5em auto;
 }
 
 .info {
@@ -53,77 +37,31 @@ form {
 
 .circlePicture {
   border-radius: 100vmax;
-  height: 15vmax;
-  border: 0.75em solid #a5be00;
-  margin: 1em;
+  height: 250px;
+  border: 15px solid #a5be00;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header:hover {
-  color: #ebf2fa;
-  text-shadow: rgba(165, 190, 0, 0.25) 0px 54px 55px,
-    rgba(165, 190, 0, 0.12) 0px -12px 30px, rgba(165, 190, 0, 0.12) 0px 4px 6px,
-    rgba(165, 190, 0, 0.17) 0px 12px 13px, rgba(165, 190, 0, 0.09) 0px -3px 5px;
-}
-
-#icon-palmtree {
-  height: 2em;
-}
-
-.layoutContent {
-  margin: 5em;
-}
-
 #cloud-right {
   right: 20em;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
 #cloud-left {
   left: 25em;
   top: 10em;
+}
+
+#cloud-left,
+#cloud-right {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
-#moutain {
+#shadow-moutain {
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
-.crossDiv,
-#spaceDisplay,
-#centerDisplay {
-  display: flex;
-}
-
-.middle-container {
-  height: 200px;
-  width: 200px;
-  background-color: blue;
-}
-
-.bottom-container {
-  height: 200px;
-  width: 200px;
-  background-color: red;
-}
-
-.crossDiv {
-  height: 600px;
-  width: 600px;
-  flex-direction: column;
-}
-
-#spaceDisplay {
-  justify-content: space-between;
-}
-
-#centerDisplay {
-  justify-content: center;
+#font-notosansTH {
+  font-family: "Noto Sans Thai", sans-serif;
 }
