@@ -5,9 +5,10 @@
 
 table {
   border-collapse: collapse;
-  min-width: 40%;
+  min-width: 50rem;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 2vmin;
+  text-align: center;
 }
 
 thead {
@@ -45,12 +46,13 @@ form {
 }
 
 #cloud-right {
-  right: 20em;
+  right: 30%;
+  top: 10%;
 }
 
 #cloud-left {
-  left: 25em;
-  top: 10em;
+  left: 25%;
+  top: 50%;
 }
 
 #cloud-left,
