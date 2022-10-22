@@ -1,32 +1,121 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact me 📌</title>
+    <link rel="icon" href="Image\palm tree.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="master.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>📌 Contact me</title>
-  <link rel="stylesheet" href="master.css">
-</head>
-
-<body>
-  <h1>Contact by</h1>
-  <ol style="margin: 1rem">
-    <h3>&nbsp📱 Phone number: 099-999-1122</h3>
-    <h3>📧 Mail: tutrefu.fiv@nmail.com</h3>
-  </ol>
-  <hr>
-  <h3>ติดต่อฉัน</h3>
-  <form class="" action="mailto: tuwanonpadee2544@gmail.com" method="post">
-    <ul>
-      <label>Name :</label>
-      <input type="text" name="name_surname" value="" placeholder="กรุณากรอกชื่อ"><br>
-      <label>E-mail :</label>
-      <input type="email" name="email" value="" placeholder="กรุณากรอกอีเมล์"><br>
-      <label>ข้อความที่ต้องการส่ง:</label><br>
-      <textarea name="message" rows="8" cols="80" placeholder="ข้อความ..."></textarea><br>
-      <input type="submit" name="">
-    </ul>
-  </form>
-  <button onclick="history.back()">↩ Back</button>
-</body>
-
+  <body class="content-body">
+    <nav class="navbar navbar-expand-lg bg-light shadow-lg bg-body sticky-top">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container-fluid">
+        <img
+          src="Image/palm tree.png"
+          class="navbar-brand"
+          id="icon-palmtree"
+          height="50"
+        />
+        <span class="navbar-brand mb-0 h1">Tuwanon Padee</span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="weeklyReported.html">Weekly Reported</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5 border rounded p-5">
+      <h2>Contact by</h2>
+      <ol style="margin: 1rem">
+        <div class="row row-cols-2 w-50">
+          <div class="col">📞 Phone number :</div>
+          <div class="col">099-999-1122</div>
+          <div class="col">📧 Mail :</div>
+          <div class="col">tutrefu.fiv@nmail.com</div>
+        </div>
+      </ol>
+      <hr class="border border-white opacity-100" />
+      <h2>Send Contact</h2>
+      <form action="mailto: 6352300421@stu.ac.th" method="post">
+        <ul>
+          <li class="my-3">
+            <label>Name :</label>
+            <input
+              type="text"
+              name="name_surname"
+              value=""
+              placeholder="กรุณากรอกชื่อ"
+            />
+          </li>
+          <li class="my-3">
+            <label>E-mail :</label>
+            <input
+              type="email"
+              name="email"
+              value=""
+              placeholder="กรุณากรอกอีเมล์"
+            />
+          </li>
+          <li class="my-3">
+            <label>ข้อความที่ต้องการส่ง:</label><br />
+            <textarea
+              name="message"
+              rows="10"
+              cols="120"
+              placeholder=" typing..."
+            ></textarea>
+          </li>
+        </ul>
+        <div class="d-flex justify-content-between">
+          <button type="button" class="btn btn-light" onclick="history.back()">
+            ↩ Back
+          </button>
+          <button type="submit"></button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
