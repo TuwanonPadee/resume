@@ -3,21 +3,35 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Resume 📃</title>
-    <link rel="stylesheet" href="master.css" />
     <link rel="icon" href="Image\palm tree.png" />
+    <title>Resume 📃</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="master.css" />
   </head>
 
   <body class="content-body">
-    <nav
-      class="navbar navbar-expand-lg bg-light shadow-lg p-3 bg-body sticky-top"
-    >
+    <nav class="navbar navbar-expand-lg bg-light shadow-lg bg-body sticky-top">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="container-fluid">
         <img
           src="Image/palm tree.png"
@@ -40,16 +54,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link" href="weeklyReported.html">Weekly Reported</a>
             </li>
           </ul>
         </div>
@@ -61,7 +74,7 @@
       <h1 class="d-flex justify-content-center">
         <i> Mr. Tuwanon Padee </i>
       </h1>
-      <div class="border border-3 border-dark w-75 mx-auto mb-3"></div>
+      <div class="border border-3 border-dark bg-dark w-75 mx-auto mb-3"></div>
       <h2 class="d-block mx-auto" id="font-notosansTH">
         <b><u>P</u>anyapiwat <u>I</u>nstitute of <u>M</u>anagement</b>
       </h2>
@@ -75,34 +88,34 @@
         />
       </div>
     </div>
-    <div class="container">
+    <div class="container my-5">
       <article class="my-5 text-center">
         <img
           class="circlePicture d-block mx-auto my-5"
           src="Image\pictureProfile.jpg"
           alt="profile image"
         />
-        <h2>Ha lo Ha lo</h2>
+        <h2>Hello</h2>
         <p>I study at Panyapiwat Institute of Management.</p>
         <hr class="border border-white opacity-100" />
       </article>
       <article class="my-5">
-        <h2 class="text-center">Skill</h2>
-        <div class="row row-cols-2 justify-content-sm-center w-25 mx-auto">
+        <h2 class="text-center">My Skill</h2>
+        <div class="row row-cols-2 justify-content-sm-center w-50 mx-auto">
           <p class="col">Java</p>
           <span class="col">💪🏼💪🏼💪🏼💪🏼💪🏼</span>
           <p class="col">Javascript</p>
           <span class="col">💪🏼💪🏼💪🏼💪🏼</span>
           <p class="col">English</p>
           <span class="col">💪🏼💪🏼💪🏼</span>
-          <p class="col">English</p>
+          <p class="col">gaming</p>
           <span class="col">💪🏼💪🏼💪🏼💪🏼💪🏼</span>
         </div>
         <hr class="border border-white opacity-100" />
       </article>
-      <h2 class="header">Experience <span class="paragraphLine"></span></h2>
-      <ul>
-        <h2>
+      <article>
+        <h2 class="text-center my-4">Experience</h2>
+        <div class="d-flex justify-content-sm-center">
           <table>
             <thead>
               <tr>
@@ -117,22 +130,8 @@
               </tr>
             </tbody>
           </table>
-        </h2>
-      </ul>
-
-      <a href="contact.html" class="noneHyperText">
-        <h2 class="header">Contdact 📎 <span class="paragraphLine"></span></h2>
-      </a>
-      <h2>
-        <a href="weeklyReported.html" target="_blank" class="noneHyperText"
-          >Weekly Reported 📎</a
-        >
-      </h2>
+        </div>
+      </article>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
